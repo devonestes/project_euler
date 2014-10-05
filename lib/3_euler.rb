@@ -24,17 +24,11 @@ def reduce(results, primes)
 	}
 end
 
-puts
 print euler_3(10) == [5, 2]
 puts
 print euler_3(11) == [11]
 puts
-print euler_3(25) == [5, 5]
-puts
-print euler_3(13195) == [5, 7, 13, 29]
-
+print euler_3(13195) == [29, 5, 7, 13]
 puts
 print euler_3(600851475143)
-puts ""
-
-
+puts
