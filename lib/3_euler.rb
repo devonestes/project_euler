@@ -25,7 +25,7 @@ def reduce(results, primes)
 end
 
 puts
-print euler_3(10) == [2, 5]
+print euler_3(10) == [5, 2]
 puts
 print euler_3(11) == [11]
 puts
