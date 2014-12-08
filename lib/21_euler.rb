@@ -27,7 +27,6 @@ def amicable
   d_hash.each do |k,v|
     amicable << k if d_hash[v] == k && d_hash[v] != v
   end
-  p amicable
   amicable.inject(:+)
 end
 
